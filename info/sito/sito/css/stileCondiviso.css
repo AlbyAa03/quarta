@@ -1,0 +1,45 @@
+#barraSuperiore {
+  position: fixed;
+  background-color: rgb(255, 166, 0);
+  overflow: hidden;
+  top: 0px;
+  width: 100%;
+  transition: top 0.3s;
+  z-index: 100;
+}
+
+/* Style the links inside the navigation bar */
+#barraSuperiore a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+#barraSuperiore a:hover {
+  background-color: #e6dc55;
+  color: black;
+}
+
+#barraSuperiore a.attivo {
+  background-color: #f0ed34;
+  color: white;
+}
+
+body {
+  margin: auto;
+  background-color: #e6dc55;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  padding-bottom:0px;
+  bottom: 0;
+  clear: both;
+}
+
+
+

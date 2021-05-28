@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <title>gioco sulla trap</title>
+    <script src="../js/funzioniGioco.js"></script>
+    <link href="../css/stileGioco.css" rel="stylesheet" type="text/css">
+    <link href="../css/stileCondiviso.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onload="starta()">
+
+
+    <header>
+
+        <nav id="barraSuperiore">
+            <a href="paginaPrincipale.html">Pagina principale</a>
+            <a href="storiaTrap.html">Storia</a>
+            <a class="attivo">Gioco</a>
+            <a href="about_me.html">about me</a>
+        </nav>
+    </header>
+        <input type="input" id = "txtNickname" placeholder="nickame">
+     
+
+        <div class ="radioBottoni">
+            <p style="text-align: right;">TEMA</p>
+            <input type="radio" id="solare" name="tema" value="solare" onclick ="cambiaTema('solare')" checked>
+            <label for="solare">solare</label><br>
+            <input type="radio" id="chiaro" name="tema" value="chiaro" onclick="cambiaTema('chiaro')">
+            <label for="male">chiaro</label><br>
+        </div>       
+        
+        <div id="tabella" style="visibility: visible"></div>
+        <div id="bottoni">
+            <input type="range" id="velocita" onchange="cambiaTactus(this.value)" min="60" max="200">
+            <label for="BPM">BPM</label>
+            <input type="button" value="PARTI" onclick="parti()">
+            <input type="button" value="STOPPA" onclick="stoppa()">
+
+        </div>
+
+        <footer>
+            <p>
+                I diritti di questa pagina sono posseduti da: Alberto Alpigiano&#169;
+            </p>
+        </footer>
+</body>
+
+</html>

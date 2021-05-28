@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <title>pagina principale</title>
+    <script src="../js/funzioniPrincipale.js"></script>
+    <link href="../css/stilePrincipale.css" rel="stylesheet" type="text/css">
+    <link href="../css/stileCondiviso.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+
+    <header>
+        <nav id="barraSuperiore">
+            <a class="attivo" href="">Pagina principale</a>
+            <a href="storiaTrap.html">Storia</a>
+            <a href="gioco.html">Gioco</a>
+            <a href="about_me.html">about me</a>
+        </nav>
+    </header>
+
+    <h1 style="padding-top: 1cm;">LA TRAP</h1>
+
+    <div class="container">
+        <!--non sapevo se era meglio cambiare pagina quando si preme l'icona o il container (div)-->
+        <a href="./storiaTrap.html">
+            <div class="left">
+                <h2>storia della trap</h2>
+
+                <img src="../risorse/storia.png" id="imgStoria" onmouseover="passatoSuIcona('imgStoria',1)"
+                    onmouseout="passatoSuIcona('imgStoria',0)"  styl>
+            </div>
+        </a>
+        <a href="./gioco.html">
+            <div class="center">
+                <h2>gioco</h2>
+
+                <img src="../risorse/fotoGioco.png" id="imgGioco" onmouseover="passatoSuIcona('imgGioco',1)"
+                    onmouseout="passatoSuIcona('imgGioco',0)"  >
+            </div>
+        </a>
+        <a href="./about_me.html">
+            <div class="right">
+                <h2>about me</h2>
+                    <img src="../risorse/fotoAboutMe.png" id="imgAboutme" onmouseover="passatoSuIcona('imgAboutme',1)"
+                
+                    onmouseout="passatoSuIcona('imgAboutme',0)" >
+            </div>
+        </a>
+    </div>
+    <footer >
+            <p>
+                I diritti di questa pagina sono posseduti da: Alberto Alpigiano&#169;
+            </p>
+    </footer>
+</body>
+
+</html>

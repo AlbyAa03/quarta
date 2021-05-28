@@ -1,0 +1,20 @@
+.metà{
+  float: left;
+  width: 45%;
+}
+
+#immagineIniziale {
+  filter: blur(0px);
+}
+
+p.metà {
+  margin : 10%;
+  width: 34%;
+  line-height: 1.8;
+  text-align: center;
+  line-height: 25px;
+  font-family: courier;
+}
+
+
+
